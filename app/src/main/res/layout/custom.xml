@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginRight="10dp"
+>
+
+
+        <ImageView
+            android:id="@+id/custom_image"
+            android:layout_width="65dp"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/taxi" />
+
+        <TextView
+            android:id="@+id/custom_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/custom_image"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="3dp"
+            android:text="564654"
+            android:textColor="#2D46DB"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/custom_id"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="7dp"
+            android:text="Type"
+            android:textColor="#2D46DB"
+            android:textSize="20sp" />
+
+
+
+</RelativeLayout>
